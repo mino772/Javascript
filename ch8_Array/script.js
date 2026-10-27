@@ -1,0 +1,14 @@
+let fruits = ["Apple", "Banana","Orange"];
+console.log(fruits[1]);
+console.log(fruits.length);
+console.log(fruits[fruits.length - 1]);
+console.log(fruits[fruits.length - 2]);
+console.log(fruits.indexOf("Apple"));
+fruits.push("Grapes");
+console.log(fruits);
+fruits.pop();
+console.log(fruits);
+fruits.shift();
+console.log(fruits);
+fruits.unshift("Mango");
+console.log(fruits);
